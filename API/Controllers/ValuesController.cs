@@ -23,7 +23,7 @@ namespace API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<Value>> Get()
         {
-            return Ok(_context.Values.ToList();
+            return Ok(_context.Values.ToList());
         }
 
         // GET api/values/5
